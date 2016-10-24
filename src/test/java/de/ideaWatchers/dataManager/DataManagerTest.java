@@ -1,4 +1,4 @@
-package de.ideaWatchers.dataManager;
+package test.java.de.ideaWatchers.dataManager;
 
 /**
  * Created by geopras on 24.10.16.
