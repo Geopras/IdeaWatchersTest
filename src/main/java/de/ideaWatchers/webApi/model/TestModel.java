@@ -1,4 +1,4 @@
-package de.ideaWatchers.webApi.model;
+package main.java.de.ideaWatchers.webApi.model;
 
 public class TestModel {
 

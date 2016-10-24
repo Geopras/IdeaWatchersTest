@@ -1,4 +1,4 @@
-package de.ideaWatchers.webApi.workflow;
+package main.java.de.ideaWatchers.webApi.workflow;
 
 public class WorkflowTestClass {
 

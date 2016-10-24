@@ -1,7 +1,7 @@
-package de.ideaWatchers.dataManager;
+package main.java.de.ideaWatchers.dataManager;
 
 /**
  * Created by geopras on 24.10.16.
  */
-public class dataManager {
+public class DataManager {
 }

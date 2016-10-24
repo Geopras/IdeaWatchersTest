@@ -1,4 +1,4 @@
-package de.ideaWatchers.webApi.endpoint;
+package main.java.de.ideaWatchers.webApi.endpoint;
 
 import javax.websocket.*;
 import javax.websocket.server.ServerEndpoint;

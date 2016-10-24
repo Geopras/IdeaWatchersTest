@@ -3,11 +3,6 @@ button {
 	margin-right: 25px
 }
 
-/* Textbox */
-textbox {
-	
-}
-
 h1 {
 	text-align: center
 }
@@ -54,8 +49,8 @@ div.views-container {
 }
 
 div.views-container div {
-	margin-left: 200;
-	margin-right: 200
+	margin-left: 200px;
+	margin-right: 200px;
 }
 /* View : login */
 div.v-login-view {

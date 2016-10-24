@@ -5,7 +5,12 @@
     <groupId>de.ideaWatchers</groupId>
     <artifactId>IdeaWatchers</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>war</packaging>
+    <name>Maven Quick Start Archetype</name>
+    <url>http://maven.apache.org</url>
+
     <build>
+        <sourceDirectory>${basedir}/src</sourceDirectory>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -17,12 +22,18 @@
             </plugin>
         </plugins>
     </build>
-    <packaging>jar</packaging>
-
-    <name>Maven Quick Start Archetype</name>
-    <url>http://maven.apache.org</url>
 
     <dependencies>
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-core</artifactId>
+            <version>9.0.0.M11</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-catalina</artifactId>
+            <version>9.0.0.M11</version>
+        </dependency>
         <dependency>
             <groupId>javax.websocket</groupId>
             <artifactId>javax.websocket-api</artifactId>
